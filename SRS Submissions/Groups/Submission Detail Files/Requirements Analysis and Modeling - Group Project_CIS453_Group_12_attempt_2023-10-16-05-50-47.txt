@@ -1,0 +1,15 @@
+Name: CIS453_Group_12
+Assignment: Requirements Analysis and Modeling - Group Project
+Date Submitted: Monday, October 16, 2023 5:50:47 AM EDT
+Current Grade: Needs Grading
+
+Submission Field:
+There is no student submission text data for this assignment.
+
+Comments:
+There are no student comments for this assignment.
+
+Files:
+	Original filename: SRS for Study Club.pdf
+	Filename: Requirements Analysis and Modeling - Group Project_CIS453_Group_12_attempt_2023-10-16-05-50-47_SRS for Study Club.pdf
+

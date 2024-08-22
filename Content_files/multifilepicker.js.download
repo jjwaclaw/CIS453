@@ -1,0 +1,194 @@
+/* ==================================================================
+ *The javascript used for the dynamic multifilepicker widget
+ * Copyright (c) 2005 by Blackboard, Inc.,
+ * 1899 L Street, NW, 5th Floor
+ * Washington, DC, 20036, U.S.A.
+ * All rights reserved.
+ * Submit RFC & bugs report to: aklimenko@blackboard.com
+ * This software is the confidential and proprietary information
+ * of Blackboard, Inc. ("Confidential Information").  You
+ * shall not disclose such Confidential Information and shall use
+ * it only in accordance with the terms of the license agreement
+ * you entered into with Blackboard.
+ * ==================================================================*/
+
+// ********************************************
+// JAVASCRIPT for the DYNAMIC ADD ATTACHMENTS
+// ********************************************
+
+var multifilepicker = {};
+( function ()
+{
+  /****************************************************************************
+   * GLOBAL variables in the namespace
+   ****************************************************************************/
+
+  // current # of attachment sections on the web page
+  var currentUploads = 0;
+
+  // Name property for the File Input field
+  var nameFile = '';
+
+  var gFileFieldName ='email_file_';
+
+  // localized string values set in initMsgStrings()
+  var gRemoveTitleStr          = "";
+  var gInputFileBoxTitleStr    = "";
+  var gAddAttachmentText       = "";
+  var gAddAnotherAttachmentText= "";
+
+  /****************************************************************************
+   * Method to initialize localized message strings to global variables in this namespace
+   * This method should be called before loadTree()
+   *
+   * @param msgStrings
+   ****************************************************************************/
+  function initMsgStrings( removeTitleStr, inputFileBoxTitleStr, addAttachmentText, addAnotherAttachmentText )
+  {
+    // set global string values - these are used in the display
+    gRemoveTitleStr = removeTitleStr;
+    gInputFileBoxTitleStr = inputFileBoxTitleStr;
+    gAddAttachmentText = addAttachmentText;
+    gAddAnotherAttachmentText = addAnotherAttachmentText;
+  }
+
+  function _updateBundleArgumentText( bundleStr, argStr )
+  {
+    return bundleStr.replace( "{0}", argStr );
+  }
+
+  // This function removes an attachment from the form
+  // and updates the ID and Name properties of all other
+  // Attachment sections
+  function removeFile(container, item)
+  {
+      currentUploads--;
+      container.removeChild(item);
+
+      // change the wording of the attach file link
+      // if there is no input file form item on the page
+      if (currentUploads===0)
+      {
+          document.getElementById('addupload').childNodes[0].data=gAddAttachmentText;
+      }
+      else
+      {
+        // get all input elements in the attachments container
+        var inputElements = container.getElementsByTagName("input");
+        var index = 1;
+        var i;
+
+        if( inputElements && inputElements.length > 0 )
+        {
+          for( i = 0; i < inputElements.length; i++ )
+          {
+            var input = inputElements[i];
+
+            // reset the ids, names, and titles for the attachment input elements
+            input.id   = gFileFieldName + index;
+            input.name = gFileFieldName + index;
+            input.title=_updateBundleArgumentText( gInputFileBoxTitleStr, index );
+            index++;
+          }
+        }
+
+        // get all the anchor elements in the attachments container
+        var anchorElements = container.getElementsByTagName("a");
+        index = 1;
+
+        if( anchorElements && anchorElements.length > 0 )
+        {
+          for( i = 0; i < anchorElements.length; i++ )
+          {
+            var anchor = anchorElements[i];
+
+            if( anchor.name=="rlink" )
+            {
+              // reset the titles for the remove anchor links
+              anchor.title=_updateBundleArgumentText( gRemoveTitleStr, index );
+              index++;
+            }
+          }
+        }
+      }
+  }
+
+
+  // This function adds a new attachment section to the form
+  // It is called when the user clicks the "Attach a file" button...
+  function addUpload()
+  {
+      nameFile=gFileFieldName;
+
+      currentUploads++;
+
+      // change the wording of the attach a file link
+      // if there is more than one file input field on page
+
+      if (currentUploads>0)
+      {
+        document.getElementById('addupload').childNodes[0].data=gAddAnotherAttachmentText;
+      }
+      // First, clone the attachment section
+
+      var newFields = document.getElementById('attachment').cloneNode(true);
+      newFields.id = '';
+
+      // Then, make the new attachments section visible
+
+      newFields.style.display = 'block';
+
+
+      // loop through tags in the new Attachment section
+      // and set ID and NAME properties
+      //
+      // NOTE:    the control name for the file input field is created
+      //          by appending the currentUploads variable
+      //          value to the nameFile value
+      //              "inFile1", "inFile2", ...
+      var newField = newFields.childNodes;
+
+      for (var i=0;i<newField.length;i++)
+      {
+      if (newField[i].name==nameFile)
+          {
+              newField[i].id=nameFile+currentUploads;
+              newField[i].name=nameFile+currentUploads;
+              newField[i].title=_updateBundleArgumentText( gInputFileBoxTitleStr, currentUploads );
+          }
+
+      if( newField[i].name == "rlink")
+          {
+              newField[i].title = _updateBundleArgumentText( gRemoveTitleStr, currentUploads );
+          }
+      }
+
+
+
+      // Insert our new Attachment section into the Attachments Div
+      // on the form...
+
+
+      var insertHere = document.getElementById('attachmentmarker');
+      insertHere.parentNode.insertBefore(newFields,insertHere);
+
+      document.getElementById(nameFile+currentUploads).focus();
+  }
+
+  /****************************************************************************
+   * Register PUBLIC namespace entities
+   ****************************************************************************/
+  multifilepicker =
+  {
+    initMsgStrings : initMsgStrings,
+    addUpload      : addUpload,
+    removeFile     : removeFile
+  };
+
+
+}() );
+
+
+
+
+
