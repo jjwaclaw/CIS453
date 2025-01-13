@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html class='pc chrome win psc_dir-ltr psc_form-xlarge' dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2022, Oracle and/or its affiliates.  -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>ID</th><th>Name</th><th>Roster Grade</th><th>Official Grade</th><th>Program and Plan</th><th>Level</th><th>Final Roster Status</th></tr>
+<tr>
+<td  >374065381</td>
+<td  >Abraham,Yohaan Matthew</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >930853356</td>
+<td  >An,Zhengxu</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >319357124</td>
+<td  >Anthony,Brianna Danielle</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >572825297</td>
+<td  >Azumah,Fiona Asungedib</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >857437495</td>
+<td  >Bagcal,Janjay Keith</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >341927917</td>
+<td  >Barahona-Gonzalez,Sebastian</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >895342898</td>
+<td  >Basak,Niloy</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Senior</td>
+<td  >Pending</td>
+<tr>
+<td  >272160585</td>
+<td  >Bello,Ziven</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >805789745</td>
+<td  >Brekke,Nathan Thor</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Business</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >411411933</td>
+<td  >Cedeno,Kayla N</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >835875847</td>
+<td  >Champagne Jr,Andrew Miles</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Information Mgmt &amp; Technology</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >563729675</td>
+<td  >Chang,Esther Hanwool</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >668714884</td>
+<td  >Chen,Jialiang</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >812650207</td>
+<td  >Chopliani,Nicholas</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >270229233</td>
+<td  >Clarke,Rahnaya T</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >288994879</td>
+<td  >Cruz,Jason Richard</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >383772164</td>
+<td  >Czarnecki,Nathan James</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Engineering</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >973257027</td>
+<td  >Danso,Akosua</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Design Studies</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >461114968</td>
+<td  >Daubert,Philippe Alexandre</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >813952761</td>
+<td  >Davis,Nicholas</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >875013833</td>
+<td  >Dennen,Leon</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >345513928</td>
+<td  >Dubert,Annica Claudia</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >363388593</td>
+<td  >Espina,Evan J</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >286964037</td>
+<td  >Evans-Cole,Spencer</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Mathematics</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >669470374</td>
+<td  >Franco Leon,Emiliano</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >713231171</td>
+<td  >Geiwitz,Kelly Jane</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Engineering &amp; Computer Sci Mgt</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >308094612</td>
+<td  >Gharibian,Aren Sevag</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >411038842</td>
+<td  >Gonzalez,Derek</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >233635297</td>
+<td  >Gonzalez,Meagan Anessa</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >455785655</td>
+<td  >Gordon,Dene' Dior</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >991118899</td>
+<td  >Gory,Aicha</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >454980140</td>
+<td  >Hai,Alexander Joseph</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Engineering</td>
+<td  >Senior</td>
+<td  >Pending</td>
+<tr>
+<td  >336295204</td>
+<td  >Hassan,Alisha</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >332754821</td>
+<td  >Hernandez-Jones,Raychel</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Information Mgmt &amp; Technology</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >533405416</td>
+<td  >Ho,Richard</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >591376330</td>
+<td  >Hollensworth-Wooten,Isaiah J</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >361252686</td>
+<td  >Hung,Pui Yi Christine</td>
+<td  ></td>
+<td  ></td>
+<td  >Maxwell-Arts &amp; Sciences - Economics</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >686695249</td>
+<td  >Islam,Peeal</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >963597173</td>
+<td  >Ivkovic,Aleksa</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Engineering</td>
+<td  >Senior</td>
+<td  >Pending</td>
+<tr>
+<td  >440345972</td>
+<td  >Kaminski,Brunon Donovan</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >228938454</td>
+<td  >Laylor,Kyle Antonio</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >526807189</td>
+<td  >Le,Han</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >240215718</td>
+<td  >Li,Runnan</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Senior</td>
+<td  >Pending</td>
+<tr>
+<td  >503204815</td>
+<td  >Luo,Sophia</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >775460781</td>
+<td  >Manhardt,Jacob E</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >904457619</td>
+<td  >Olajobi,Dominion O</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >314560458</td>
+<td  >Parra,Geovanni Fernando</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >341544638</td>
+<td  >Petrie,Anthony</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >353988955</td>
+<td  >Pradhan,Amlan</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Theater</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >786978926</td>
+<td  >Rakotoarivony,David</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >209368372</td>
+<td  >S,Mallika</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Sophomore</td>
+<td  >Pending</td>
+<tr>
+<td  >790714515</td>
+<td  >Snow,Andrew</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >402771628</td>
+<td  >Sundaresan,Nandini</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >406410722</td>
+<td  >Thomas,Javari</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >553687595</td>
+<td  >Thongchanh,Timasco</td>
+<td  ></td>
+<td  ></td>
+<td  >Arts and Sciences - Creative Writing</td>
+<td  >Senior</td>
+<td  >Pending</td>
+<tr>
+<td  >403892996</td>
+<td  >Udedibia,Zimuzo Somadi</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >650395374</td>
+<td  >Vardanyan,Arina</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >277109266</td>
+<td  >Villegas Taillefer,Cesar</td>
+<td  ></td>
+<td  ></td>
+<td  >Non-Matriculated Undergrad - Non-Matriculated Undergrad</td>
+<td  >Freshman</td>
+<td  >Pending</td>
+<tr>
+<td  >982926904</td>
+<td  >Weir,Samantha</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >698773362</td>
+<td  >Whelan,Daniel Zachary</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >460457373</td>
+<td  >Yokoo,Naomi Lum</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+<tr>
+<td  >423479010</td>
+<td  >Zhou,Yunya</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science/Mathematics</td>
+<td  >Senior</td>
+<td  >Pending</td>
+<tr>
+<td  >919895894</td>
+<td  >cheng,peter</td>
+<td  ></td>
+<td  ></td>
+<td  >Engineering &amp; Computer Science - Computer Science</td>
+<td  >Junior</td>
+<td  >Pending</td>
+</table></body></html>
